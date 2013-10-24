@@ -77,4 +77,15 @@ Pinteresting::Application.configure do
 
   # Use default logging formatter so that PID and timestamp are not suppressed.
   config.log_formatter = ::Logger::Formatter.new
+  
+ #Required by Heroku
+ # note to set this final HOST
+ config.action_mailer.default_url_options = { :host => 'superrr.com' }
+
+
+
 end
+
+
+
+
