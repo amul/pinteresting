@@ -25,7 +25,7 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 1.2'
 
 # Adding Bootstrap framework version 3
-gem 'bootstrap-sass', github: 'thomas-mcdonald/bootstrap-sass', branch: '3'
+gem 'bootstrap-sass', github: 'thomas-mcdonald/bootstrap-sass'
 
 gem 'devise', '~> 3.1.1'
 
@@ -35,10 +35,10 @@ group :development, :test do
 	gem'meta_request',  '>= 0.2.5' 	
 end
 
-group :production do 
-	gem 'pg'
-	gem 'rails_12factor'
-end
+# group :production do 
+# 	gem 'pg'
+# 	gem 'rails_12factor'
+# end
 
 
 group :doc do
